@@ -8,28 +8,70 @@
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class LoginViewController: UIViewController, UITextFieldDelegate {
 
-    @IBOutlet weak var doneButtonItem: UIBarButtonItem!
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var doneButton: UIBarButtonItem!
     
 
 // MARK: Life Cicle
     
     override func viewDidLoad() {
+        
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
     }
 
     
 // MARK: Actions
     
-    @IBAction func cancel(sender: UIBarButtonItem) {
-        
+    @IBAction func close(sender: UIBarButtonItem) {
+    
         self .dismissViewControllerAnimated(true, completion: nil)
     }
+    
+    @IBAction func login(sender: UIBarButtonItem) {
+        
+        
+        
+    }
+    
+    
+    @IBAction func dismissKeyboard(sender: UITapGestureRecognizer) {
+        
+        self.emailTextField .resignFirstResponder()
+        self.passwordTextField .resignFirstResponder()
+    
+    }
+    
+
+//MARK: UITextFieldDelegate
+    
+    func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
+        
+        if isValidEmail() && countElements(self.passwordTextField.text) > 1{
+            self.doneButton.enabled = true
+        }else{
+            self.doneButton.enabled = false
+        }
+        
+        return true
+    }
+    
+//MARK: Text Field Requirements
+    
+    func isValidEmail() -> Bool {
+        
+        let emailRegEx = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{1,4}"
+        
+        if let emailTest = NSPredicate(format:"SELF MATCHES %@", emailRegEx) {
+            return emailTest.evaluateWithObject(self.emailTextField.text)
+        }
+        
+        return false
+    }
+    
     
 // MARK: - Navigation
     

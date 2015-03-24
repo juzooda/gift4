@@ -103,6 +103,213 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>690B3A8E1ABE763F00812E02</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>690B3A901ABE76C600812E02</string>
+				<string>690B3A911ABE76C600812E02</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Model</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>690B3A901ABE76C600812E02</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>LoginModel.h</string>
+			<key>path</key>
+			<string>Model/LoginModel.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>690B3A911ABE76C600812E02</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>LoginModel.m</string>
+			<key>path</key>
+			<string>Model/LoginModel.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>690B3A921ABE76C600812E02</key>
+		<dict>
+			<key>fileRef</key>
+			<string>690B3A911ABE76C600812E02</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>690B3A981ABE7CAF00812E02</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Constants.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>690B3A991ABE7CAF00812E02</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Constants.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>690B3A9A1ABE7CAF00812E02</key>
+		<dict>
+			<key>fileRef</key>
+			<string>690B3A991ABE7CAF00812E02</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>690B3A9B1ABF0DE700812E02</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>LoginViewController.h</string>
+			<key>path</key>
+			<string>Controller/LoginViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>690B3A9C1ABF0DE700812E02</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>LoginViewController.m</string>
+			<key>path</key>
+			<string>Controller/LoginViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>690B3A9D1ABF0DE700812E02</key>
+		<dict>
+			<key>fileRef</key>
+			<string>690B3A9C1ABF0DE700812E02</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>690B3A9E1ABFAA9700812E02</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>69600D681AC1250700D61130</string>
+				<string>69600D691AC1250700D61130</string>
+				<string>690B3A9F1ABFAAB900812E02</string>
+				<string>690B3AA01ABFAAB900812E02</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Mechanisms</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>690B3A9F1ABFAAB900812E02</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>ConnectionManager.h</string>
+			<key>path</key>
+			<string>Mechanisms/ConnectionManager.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>690B3AA01ABFAAB900812E02</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>ConnectionManager.m</string>
+			<key>path</key>
+			<string>Mechanisms/ConnectionManager.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>690B3AA11ABFAAB900812E02</key>
+		<dict>
+			<key>fileRef</key>
+			<string>690B3AA01ABFAAB900812E02</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>69600D681AC1250700D61130</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AFOAuth1Client.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>69600D691AC1250700D61130</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>AFOAuth1Client.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>69600D6A1AC1250700D61130</key>
+		<dict>
+			<key>fileRef</key>
+			<string>69600D691AC1250700D61130</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>6960ACE21AB28492000617E1</key>
 		<dict>
 			<key>fileEncoding</key>
@@ -235,9 +442,13 @@ fi
 			<array>
 				<string>69AD762A1A8EA84E001CF262</string>
 				<string>69AD76091A8E9DCF001CF262</string>
+				<string>690B3A921ABE76C600812E02</string>
+				<string>69600D6A1AC1250700D61130</string>
+				<string>690B3AA11ABFAAB900812E02</string>
 				<string>69AD76071A8E9DCF001CF262</string>
+				<string>690B3A9D1ABF0DE700812E02</string>
 				<string>69AD763D1A8EC3D8001CF262</string>
-				<string>69AD763B1A8EC3C0001CF262</string>
+				<string>690B3A9A1ABE7CAF00812E02</string>
 				<string>69AD76381A8EB043001CF262</string>
 				<string>69AD763F1A8EC3E8001CF262</string>
 				<string>698037F41A8EE9AC00A9B9B4</string>
@@ -336,6 +547,8 @@ fi
 		<dict>
 			<key>children</key>
 			<array>
+				<string>690B3A9E1ABFAA9700812E02</string>
+				<string>690B3A8E1ABE763F00812E02</string>
 				<string>69AD76391A8EC378001CF262</string>
 				<string>69AD762B1A8EAD36001CF262</string>
 				<string>69AD76261A8EA824001CF262</string>
@@ -724,6 +937,8 @@ fi
 				<string>iphoneos</string>
 				<key>SWIFT_OPTIMIZATION_LEVEL</key>
 				<string>-Onone</string>
+				<key>USER_HEADER_SEARCH_PATHS</key>
+				<string>"${PODS_ROOT}/BuildHeaders"</string>
 			</dict>
 			<key>isa</key>
 			<string>XCBuildConfiguration</string>
@@ -790,6 +1005,8 @@ fi
 				<string>NO</string>
 				<key>SDKROOT</key>
 				<string>iphoneos</string>
+				<key>USER_HEADER_SEARCH_PATHS</key>
+				<string>"${PODS_ROOT}/BuildHeaders"</string>
 				<key>VALIDATE_PRODUCT</key>
 				<string>YES</string>
 			</dict>
@@ -1008,6 +1225,8 @@ fi
 			<array>
 				<string>69AD762C1A8EAD63001CF262</string>
 				<string>69AD760D1A8E9DCF001CF262</string>
+				<string>690B3A981ABE7CAF00812E02</string>
+				<string>690B3A991ABE7CAF00812E02</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -1175,9 +1394,10 @@ fi
 			<key>children</key>
 			<array>
 				<string>69AD76081A8E9DCF001CF262</string>
-				<string>69AD763A1A8EC3C0001CF262</string>
 				<string>69AD763C1A8EC3D8001CF262</string>
 				<string>69AD763E1A8EC3E8001CF262</string>
+				<string>690B3A9B1ABF0DE700812E02</string>
+				<string>690B3A9C1ABF0DE700812E02</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -1185,28 +1405,6 @@ fi
 			<string>Controller</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>69AD763A1A8EC3C0001CF262</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>LoginViewController.swift</string>
-			<key>path</key>
-			<string>Controller/LoginViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>69AD763B1A8EC3C0001CF262</key>
-		<dict>
-			<key>fileRef</key>
-			<string>69AD763A1A8EC3C0001CF262</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>69AD763C1A8EC3D8001CF262</key>
 		<dict>

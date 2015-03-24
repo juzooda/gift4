@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14D87h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14D105g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -108,7 +108,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="2nZ-Zz-GVy" kind="presentation" id="gZr-s7-rfM"/>
+                                    <segue destination="2nZ-Zz-GVy" kind="presentation" id="Yzg-E8-Q5v"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -200,7 +200,7 @@
         <!--Login View Controller-->
         <scene sceneID="r3T-MS-M2O">
             <objects>
-                <viewController id="2nZ-Zz-GVy" customClass="LoginViewController" customModule="Gift4" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="2nZ-Zz-GVy" customClass="LoginViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4mE-zB-MTM"/>
                         <viewControllerLayoutGuide type="bottom" id="lJX-v4-QKI"/>
@@ -270,15 +270,11 @@
                                     <navigationItem title="Login" id="fC3-Gk-CMH">
                                         <barButtonItem key="leftBarButtonItem" title="Cancelar" id="2lE-Eg-aBh">
                                             <color key="tintColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                            <connections>
-                                                <action selector="close:" destination="2nZ-Zz-GVy" id="Tb8-7C-uOv"/>
-                                            </connections>
                                         </barButtonItem>
-                                        <barButtonItem key="rightBarButtonItem" enabled="NO" title="Concluir" style="done" id="hWM-9O-Jme">
+                                        <barButtonItem key="rightBarButtonItem" title="Concluir" style="done" id="hWM-9O-Jme">
                                             <color key="tintColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                             <connections>
-                                                <action selector="login:" destination="2nZ-Zz-GVy" id="93b-am-0wg"/>
-                                                <segue destination="6sD-sN-Yct" kind="show" id="bpk-up-WzZ"/>
+                                                <action selector="login:" destination="2nZ-Zz-GVy" id="5G2-Sj-gFM"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -300,18 +296,9 @@
                         </connections>
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>
-                    <connections>
-                        <outlet property="doneButton" destination="hWM-9O-Jme" id="Tay-Wr-qcn"/>
-                        <outlet property="emailTextField" destination="SgF-SN-4bf" id="j64-4A-yH2"/>
-                        <outlet property="passwordTextField" destination="Gab-Qy-frs" id="eBY-QK-hWc"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YTc-rs-8P0" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="9OQ-ap-Wcq">
-                    <connections>
-                        <action selector="dismissKeyboard:" destination="2nZ-Zz-GVy" id="HOS-dJ-zNx"/>
-                    </connections>
-                </tapGestureRecognizer>
+                <tapGestureRecognizer id="9OQ-ap-Wcq"/>
             </objects>
             <point key="canvasLocation" x="739" y="1656"/>
         </scene>
@@ -380,7 +367,4 @@
         <image name="logo" width="150" height="150"/>
         <image name="shadow" width="320" height="480"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="bpk-up-WzZ"/>
-    </inferredMetricsTieBreakers>
 </document>

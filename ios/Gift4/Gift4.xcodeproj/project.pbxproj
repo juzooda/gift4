@@ -228,8 +228,6 @@ fi
 		<dict>
 			<key>children</key>
 			<array>
-				<string>69600D681AC1250700D61130</string>
-				<string>69600D691AC1250700D61130</string>
 				<string>690B3A9F1ABFAAB900812E02</string>
 				<string>690B3AA01ABFAAB900812E02</string>
 			</array>
@@ -274,39 +272,6 @@ fi
 		<dict>
 			<key>fileRef</key>
 			<string>690B3AA01ABFAAB900812E02</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>69600D681AC1250700D61130</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AFOAuth1Client.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>69600D691AC1250700D61130</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AFOAuth1Client.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>69600D6A1AC1250700D61130</key>
-		<dict>
-			<key>fileRef</key>
-			<string>69600D691AC1250700D61130</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -443,7 +408,6 @@ fi
 				<string>69AD762A1A8EA84E001CF262</string>
 				<string>69AD76091A8E9DCF001CF262</string>
 				<string>690B3A921ABE76C600812E02</string>
-				<string>69600D6A1AC1250700D61130</string>
 				<string>690B3AA11ABFAAB900812E02</string>
 				<string>69AD76071A8E9DCF001CF262</string>
 				<string>690B3A9D1ABF0DE700812E02</string>

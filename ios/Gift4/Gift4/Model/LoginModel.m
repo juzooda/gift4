@@ -9,43 +9,36 @@
 #import "LoginModel.h"
 #import "Constants.h"
 #import "AFNetworking.h"
-#import "AFOAuth1Client.h"
+#import "BDBOAuth1RequestOperationManager.h"
 
 @implementation LoginModel
 
 -(void)login
 {
     
-    NSString *requestURL = [NSString stringWithFormat:@"%@/orders", kAPIURL];
+    NSString *requestURL = [NSString stringWithFormat:@"%@", kAPIURL];
     
-    AFOAuth1Client *twitterClient = [[AFOAuth1Client alloc] initWithBaseURL:[NSURL URLWithString:requestURL]
-                                                                        key:kConsumerKey
-                                                                     secret:kConsumerSecret];
+    BDBOAuth1RequestOperationManager *requestManager = [[BDBOAuth1RequestOperationManager alloc]initWithBaseURL:[NSURL URLWithString:requestURL]
+                                                                                                    consumerKey:kConsumerKey
+                                                                                                 consumerSecret:kConsumerSecret];
     
-    NSURLRequest *request = [twitterClient requestWithMethod:@"GET" path:kAPIURL parameters:nil];
     
-    AFHTTPRequestOperation *operation = [twitterClient HTTPRequestOperationWithRequest:request success:^(AFHTTPRequestOperation *operation, id responseObject) {
+    [requestManager GET:@"/customers" parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
         
         NSError *error;
-        
         NSDictionary *JSON = [NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingAllowFragments error:&error];
         
         if (!error) {
             NSLog(@"RESPONSE: %@",JSON);
         }else{
-            NSString *teste = responseObject;
-            NSLog(@"Serialization Error: %@",teste);
+            NSLog(@"responseString = %@", [[NSString alloc] initWithData:responseObject encoding:NSUTF8StringEncoding]);
         }
-        
         
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         
-        NSLog(@"ERROR: %@",error);
+         NSLog(@"ERROR: %@",error);
         
     }];
-    
-    [twitterClient enqueueHTTPRequestOperation:operation];
-    
 }
 
 @end

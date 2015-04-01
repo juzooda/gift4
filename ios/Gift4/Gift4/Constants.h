@@ -23,6 +23,11 @@ FOUNDATION_EXPORT NSString *const kOauthNonce;
 FOUNDATION_EXPORT NSString *const kOauthSignature;
 FOUNDATION_EXPORT NSString *const kOauthSignatureMethod;
 
+//Where to Buy
+
+FOUNDATION_EXPORT double const kLatitude;
+FOUNDATION_EXPORT double const kLongitude;
+
 @end
 
 

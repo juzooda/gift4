@@ -23,9 +23,12 @@ NSString *const kOauthNonce = @"oauth_nonce";
 NSString *const kOauthSignature = @"oauth_signature";
 NSString *const kOauthSignatureMethod = @"oauth_signature_method";
 
-
 NSString *const kConsumerSecretParameter = @"consumer_secret";
 
-//http:\/\/dev.lampejos.com.br\/gift4\/rafaelapp
+
+//Where to Buy - Gift4 Coordinate
+
+double const kLatitude = -22.745243;
+double const kLongitude = -47.335636;
 
 @end

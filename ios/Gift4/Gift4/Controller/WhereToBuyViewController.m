@@ -54,7 +54,6 @@
 }
 
 
-
 - (IBAction)directionsToStore:(id)sender
 {
     UIActionSheet *directionOptions = [[UIActionSheet alloc] initWithTitle:@"Direções"

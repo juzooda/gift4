@@ -10,9 +10,9 @@
 		14AD8B4F72AF8406CAFB7BB4 /* libPods-Gift4Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F66D21A219E2DE2552C558 /* libPods-Gift4Tests.a */; };
 		5F457507DBE0BDB87E626945 /* libPods-Gift4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F626584F0739395A7BF805 /* libPods-Gift4.a */; };
 		690B3A9A1ABE7CAF00812E02 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 690B3A991ABE7CAF00812E02 /* Constants.m */; };
-		690B3A9D1ABF0DE700812E02 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 690B3A9C1ABF0DE700812E02 /* LoginViewController.m */; };
 		690B3AA11ABFAAB900812E02 /* ConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 690B3AA01ABFAAB900812E02 /* ConnectionManager.m */; };
 		6942C1AC1AD4404B00DD741E /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6942C1AB1AD4404B00DD741E /* LoginManager.swift */; };
+		6942C1AE1AD4566900DD741E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6942C1AD1AD4566900DD741E /* LoginViewController.swift */; };
 		6960ACE31AB28492000617E1 /* StyleSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6960ACE21AB28492000617E1 /* StyleSettings.plist */; };
 		698037F41A8EE9AC00A9B9B4 /* BlurImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698037F31A8EE9AC00A9B9B4 /* BlurImageView.swift */; };
 		69AD76071A8E9DCF001CF262 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AD76061A8E9DCF001CF262 /* AppDelegate.swift */; };
@@ -46,11 +46,10 @@
 		5EEBB450EA88F902B99E1989 /* Pods-Gift4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gift4.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gift4/Pods-Gift4.release.xcconfig"; sourceTree = "<group>"; };
 		690B3A981ABE7CAF00812E02 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		690B3A991ABE7CAF00812E02 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
-		690B3A9B1ABF0DE700812E02 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = Controller/LoginViewController.h; sourceTree = "<group>"; };
-		690B3A9C1ABF0DE700812E02 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = Controller/LoginViewController.m; sourceTree = "<group>"; };
 		690B3A9F1ABFAAB900812E02 /* ConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConnectionManager.h; path = Mechanisms/ConnectionManager.h; sourceTree = "<group>"; };
 		690B3AA01ABFAAB900812E02 /* ConnectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConnectionManager.m; path = Mechanisms/ConnectionManager.m; sourceTree = "<group>"; };
 		6942C1AB1AD4404B00DD741E /* LoginManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginManager.swift; path = Model/LoginManager.swift; sourceTree = "<group>"; };
+		6942C1AD1AD4566900DD741E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Controller/LoginViewController.swift; sourceTree = "<group>"; };
 		6960ACE21AB28492000617E1 /* StyleSettings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = StyleSettings.plist; sourceTree = "<group>"; };
 		698037F31A8EE9AC00A9B9B4 /* BlurImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurImageView.swift; sourceTree = "<group>"; };
 		69AD76011A8E9DCF001CF262 /* Gift4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gift4.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -235,10 +234,9 @@
 				69AD76081A8E9DCF001CF262 /* ViewController.swift */,
 				69AD763C1A8EC3D8001CF262 /* RegisterViewController.swift */,
 				69AD763E1A8EC3E8001CF262 /* WelcomeViewController.swift */,
-				690B3A9B1ABF0DE700812E02 /* LoginViewController.h */,
-				690B3A9C1ABF0DE700812E02 /* LoginViewController.m */,
 				69E51B311ACB61C9000B6738 /* WhereToBuyViewController.h */,
 				69E51B321ACB61C9000B6738 /* WhereToBuyViewController.m */,
+				6942C1AD1AD4566900DD741E /* LoginViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -450,12 +448,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6942C1AE1AD4566900DD741E /* LoginViewController.swift in Sources */,
 				69AD762A1A8EA84E001CF262 /* PatternView.m in Sources */,
 				69AD76091A8E9DCF001CF262 /* ViewController.swift in Sources */,
 				690B3AA11ABFAAB900812E02 /* ConnectionManager.m in Sources */,
 				69AD76071A8E9DCF001CF262 /* AppDelegate.swift in Sources */,
 				6942C1AC1AD4404B00DD741E /* LoginManager.swift in Sources */,
-				690B3A9D1ABF0DE700812E02 /* LoginViewController.m in Sources */,
 				69AD763D1A8EC3D8001CF262 /* RegisterViewController.swift in Sources */,
 				690B3A9A1ABE7CAF00812E02 /* Constants.m in Sources */,
 				69AD76381A8EB043001CF262 /* CornerView.swift in Sources */,

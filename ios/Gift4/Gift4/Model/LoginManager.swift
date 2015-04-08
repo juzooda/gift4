@@ -11,7 +11,6 @@ import Foundation
 class LoginManager {
     
     func login (name:String, pass:String) ->Bool  {
-        
 
         let requestManager = AFHTTPRequestOperationManager()
         
@@ -25,7 +24,4 @@ class LoginManager {
         
         return true
     }
-
-    
-
 }

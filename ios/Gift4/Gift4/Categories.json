@@ -1,0 +1,60 @@
+{
+    "product_categories": [
+                           {
+                           "id": 15,
+                           "name": "Albums",
+                           "slug": "albums",
+                           "parent": 11,
+                           "description": "",
+                           "count": 4
+                           },
+                           {
+                           "id": 9,
+                           "name": "Clothing",
+                           "slug": "clothing",
+                           "parent": 0,
+                           "description": "",
+                           "count": 23
+                           },
+                           {
+                           "id": 10,
+                           "name": "Hoodies",
+                           "slug": "hoodies",
+                           "parent": 9,
+                           "description": "",
+                           "count": 6
+                           },
+                           {
+                           "id": 11,
+                           "name": "Music",
+                           "slug": "music",
+                           "parent": 0,
+                           "description": "",
+                           "count": 6
+                           },
+                           {
+                           "id": 12,
+                           "name": "Posters",
+                           "slug": "posters",
+                           "parent": 0,
+                           "description": "",
+                           "count": 5
+                           },
+                           {
+                           "id": 13,
+                           "name": "Singles",
+                           "slug": "singles",
+                           "parent": 11,
+                           "description": "",
+                           "count": 2
+                           },
+                           {
+                           "id": 14,
+                           "name": "T-shirts",
+                           "slug": "t-shirts",
+                           "parent": 9,
+                           "description": "",
+                           "count": 17
+                           }
+                           ]
+}

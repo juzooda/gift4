@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		14AD8B4F72AF8406CAFB7BB4 /* libPods-Gift4Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F66D21A219E2DE2552C558 /* libPods-Gift4Tests.a */; };
-		5F457507DBE0BDB87E626945 /* libPods-Gift4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F626584F0739395A7BF805 /* libPods-Gift4.a */; };
+		091D03BFAF8CD060A7FC1F29 /* Pods_Gift4Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D8472F88EC94FD080DD4D7F /* Pods_Gift4Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		690B3A9A1ABE7CAF00812E02 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 690B3A991ABE7CAF00812E02 /* Constants.m */; };
 		690B3AA11ABFAAB900812E02 /* ConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 690B3AA01ABFAAB900812E02 /* ConnectionManager.m */; };
 		694238911AD8CA5E00DD9411 /* Categories.json in Resources */ = {isa = PBXBuildFile; fileRef = 694238901AD8CA5E00DD9411 /* Categories.json */; };
@@ -32,6 +31,7 @@
 		69AD763F1A8EC3E8001CF262 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AD763E1A8EC3E8001CF262 /* WelcomeViewController.swift */; };
 		69E51B301ACB5F16000B6738 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E51B2F1ACB5F16000B6738 /* MapKit.framework */; };
 		69E51B331ACB61C9000B6738 /* WhereToBuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E51B321ACB61C9000B6738 /* WhereToBuyViewController.m */; };
+		B5FECCD785A9627CFEC22213 /* Pods_Gift4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 392F904359EF5020D60D32E4 /* Pods_Gift4.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +46,8 @@
 
 /* Begin PBXFileReference section */
 		18358B86B04E6BB359E08054 /* Pods-Gift4Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gift4Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gift4Tests/Pods-Gift4Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		392F904359EF5020D60D32E4 /* Pods_Gift4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gift4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5336403C2244EDFF61F641F2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		54F66D21A219E2DE2552C558 /* libPods-Gift4Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Gift4Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EEBB450EA88F902B99E1989 /* Pods-Gift4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gift4.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gift4/Pods-Gift4.release.xcconfig"; sourceTree = "<group>"; };
 		690B3A981ABE7CAF00812E02 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		690B3A991ABE7CAF00812E02 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
@@ -91,9 +91,9 @@
 		69E51B2F1ACB5F16000B6738 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		69E51B311ACB61C9000B6738 /* WhereToBuyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WhereToBuyViewController.h; path = Controller/WhereToBuyViewController.h; sourceTree = "<group>"; };
 		69E51B321ACB61C9000B6738 /* WhereToBuyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WhereToBuyViewController.m; path = Controller/WhereToBuyViewController.m; sourceTree = "<group>"; };
+		8D8472F88EC94FD080DD4D7F /* Pods_Gift4Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gift4Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1EAB7A250038EAE5DAD7F05 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		C044208567C5C2366C876DF9 /* Pods-Gift4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gift4.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gift4/Pods-Gift4.debug.xcconfig"; sourceTree = "<group>"; };
-		D3F626584F0739395A7BF805 /* libPods-Gift4.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Gift4.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7376BBADDFCCECCB46C27DE /* Pods-Gift4Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gift4Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gift4Tests/Pods-Gift4Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F2771081F1483EFA8B72EF94 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,7 +104,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69E51B301ACB5F16000B6738 /* MapKit.framework in Frameworks */,
-				5F457507DBE0BDB87E626945 /* libPods-Gift4.a in Frameworks */,
+				B5FECCD785A9627CFEC22213 /* Pods_Gift4.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14AD8B4F72AF8406CAFB7BB4 /* libPods-Gift4Tests.a in Frameworks */,
+				091D03BFAF8CD060A7FC1F29 /* Pods_Gift4Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +274,8 @@
 			children = (
 				69E51B2F1ACB5F16000B6738 /* MapKit.framework */,
 				5336403C2244EDFF61F641F2 /* libPods.a */,
-				D3F626584F0739395A7BF805 /* libPods-Gift4.a */,
-				54F66D21A219E2DE2552C558 /* libPods-Gift4Tests.a */,
+				392F904359EF5020D60D32E4 /* Pods_Gift4.framework */,
+				8D8472F88EC94FD080DD4D7F /* Pods_Gift4Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -293,6 +293,7 @@
 				69AD75FF1A8E9DCF001CF262 /* Resources */,
 				8585C7EDD5397C4E07DA8F3B /* Copy Pods Resources */,
 				OBJCLEANCUSTOMRUNSCRIPTT /* Objective-Clean Run Script */,
+				D922F46F2C2B862FF2C2B8FD /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -312,6 +313,7 @@
 				69AD76131A8E9DCF001CF262 /* Frameworks */,
 				69AD76141A8E9DCF001CF262 /* Resources */,
 				ECEF9CC15F03076EDEAC298C /* Copy Pods Resources */,
+				D2815739297D61ED58B1EA29 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -427,6 +429,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gift4/Pods-Gift4-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2815739297D61ED58B1EA29 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gift4Tests/Pods-Gift4Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D922F46F2C2B862FF2C2B8FD /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gift4/Pods-Gift4-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		ECEF9CC15F03076EDEAC298C /* Copy Pods Resources */ = {

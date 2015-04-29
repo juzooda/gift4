@@ -15,8 +15,24 @@ class ProducsModel
         var categories = [Category]()
         
         if let jsonData = openJSON("Categories", extn: "json") {
-            println(jsonData)
+            
+            let jsonObject : AnyObject! = NSJSONSerialization.JSONObjectWithData(jsonData, options: NSJSONReadingOptions.MutableContainers, error: nil)
+            if let productCategories = jsonObject["product_categories"] as? NSArray{
+                
+                for categoryInList in productCategories{
+                    
+                    var category = Category()
+                    
+                    let count = categoryInList["count"] as? Int
+                    let name = categoryInList["name"] as? String
+                    let slug = categoryInList["slug"] as? String
+                    
+                    println("Hello, \(category)!")
+                }
+              
+            }
         }
+
         
         return categories
     }

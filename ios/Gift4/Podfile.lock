@@ -27,6 +27,7 @@ PODS:
   - JSONAPI (1.0.0-rc1)
   - OCMock (3.1.2)
   - Specta (0.4.0)
+  - SwiftyJSON (2.2.0)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.5)
@@ -35,6 +36,7 @@ DEPENDENCIES:
   - JSONAPI (= 1.0.0-rc1)
   - OCMock
   - Specta
+  - SwiftyJSON (~> 2.2)
 
 SPEC CHECKSUMS:
   AFNetworking: 10e85a00bb0f475124e4ff2677bf15693b2c1523
@@ -43,5 +45,6 @@ SPEC CHECKSUMS:
   JSONAPI: 042b7e820e3526e2630c8ee675ef943964ab1ac9
   OCMock: a10ea9f0a6e921651f96f78b6faee95ebc813b92
   Specta: a353759f073ffcc0a365b782fe4aaeac064c03c6
+  SwiftyJSON: 0b3e6c07af17ff745e77e8e9984097b55c956e5c
 
 COCOAPODS: 0.36.3
